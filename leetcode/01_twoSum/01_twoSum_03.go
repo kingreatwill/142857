@@ -7,15 +7,14 @@ func main() {
 }
 
 func twoSum(nums []int, target int) []int {
+	result := []int{}
 	source := map[int]int{}
 	for i, v := range nums {
+		if value, exist := source[target-v]; exist {
+			result = append(result, value)
+			result = append(result, i)
+		}
 		source[v] = i
 	}
-	for i, v := range nums {
-		sec_key := target - v
-		if s_v, ok := source[sec_key]; ok && s_v != i {
-			return []int{i, s_v}
-		}
-	}
-	return nil
+	return result
 }
