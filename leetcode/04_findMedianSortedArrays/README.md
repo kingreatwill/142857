@@ -100,7 +100,7 @@ class Solution {
      
 - 空间复杂度：O(1)O(1)。
 
-### 方法一：划分数组
+### 方法二：划分数组
 ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

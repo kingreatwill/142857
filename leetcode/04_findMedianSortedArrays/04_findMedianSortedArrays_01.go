@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Printf("%v\n", findMedianSortedArrays([]int{1, 3}, []int{}))
+	fmt.Printf("%v\n", findMedianSortedArrays([]int{}, []int{2}))
+	fmt.Printf("%v\n", findMedianSortedArrays([]int{1}, []int{3}))
 	fmt.Printf("%v\n", findMedianSortedArrays([]int{1, 3}, []int{2}))
 	fmt.Printf("%v\n", findMedianSortedArrays([]int{1, 2}, []int{3, 4}))
 }
