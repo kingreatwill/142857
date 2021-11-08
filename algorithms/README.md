@@ -19,6 +19,7 @@ https://gitee.com/zmzhou-star/learnotes/raw/master/src/main/java/com/github/zmzh
 输入：ab1abc2ddd ab1abc 最长公共字串为ab1abc，输出结果6
 输入：abcdef abc1def 最长公共字串为abc，输出结果3
 https://gitee.com/zmzhou-star/learnotes/raw/master/src/main/java/com/github/zmzhoustar/LongestCommonStr.java
+https://www.cnblogs.com/fanguangdexiaoyuer/p/11281179.html
 
 ## 03
 求最大面积
